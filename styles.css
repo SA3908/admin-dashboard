@@ -5,5 +5,20 @@
 }
 
 .header {
+    display: grid;
+}
+.header .search {
     display: flex;
+}
+.header .user-info {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.header .user-info .profile {
+    display: flex;
+}
+#button-list {
+    display: flex;
+    margin: 8px;
+    gap: 8px;
 }
