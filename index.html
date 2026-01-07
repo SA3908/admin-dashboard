@@ -3,11 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <title>Admin Dashboard</title>
 </head>
 <body>
   <div class="container">
+
     <div class = "sidebar">
       <div class="header">Dashboard</div>
       <ul>
@@ -24,8 +28,9 @@
         <li><a href="#">Privacy</a></li>
       </ul>
     </div>
+
     <div class="content"> <!-- right side taking 3fr from container grid column-->
-      <div class="header"> <!-- flexbox header-->
+      <div class="hero"> <!-- flexbox header-->
         <div class="search">
           <button>Search</button>
           <input type="search" name="q" id="site-search">
@@ -33,11 +38,13 @@
             SA3908
           </div>
         </div>
+
         <div class="user-info">
           <div class="profile"> <!-- Display user's profile and profile photo -->
             <div class="image-placeholder">icon</div>
             <div>Hi there, <br> SA3908 (<a href="https://github.com/SA3908">@SA3908</a>)</div>
           </div> 
+
           <div id="button-list"> <!-- New, Upload and Share buttons -->
            <button type="button">New</button>
            <button type="button">Upload</button>
@@ -45,10 +52,12 @@
           </div>
         </div>
       </div>
+
       <div class="content main"> <!--Contains grid cards on the left and sidebar on right-->
         <div class="cards"></div>
         <div class="sidebar"></div>
       </div>
+
     </div>
   </div>
 </body>

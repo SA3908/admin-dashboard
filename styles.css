@@ -1,20 +1,46 @@
+html {
+    font-family: "Roboto", sans-serif;
+}
+:root {
+    --primary-bg-colour: #6d72c3
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #fffdf7;
+}
 .container {
     display: grid;
     grid-template-columns: 1fr 3fr;
-
 }
 
-.header {
+.sidebar {
+    background-color: var(--primary-bg-colour);
+    color: #fffdf7;
+}
+.hero {
     display: grid;
+    background-color: var(--primary-bg-colour);
+    color: #fffdf7;
 }
-.header .search {
+.hero .search {
     display: flex;
 }
-.header .user-info {
+.hero .user-info {
     display: grid;
     grid-template-columns: 3fr 1fr;
 }
-.header .user-info .profile {
+.hero .user-info .profile {
     display: flex;
 }
 #button-list {
