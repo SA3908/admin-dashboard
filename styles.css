@@ -42,21 +42,34 @@ a {
 }
 .hero {
     display: grid;
+    
     background-color: var(--primary-bg-colour);
     color: #fffdf7;
+    
 }
 .hero .search {
     display: flex;
+    margin: 8px;
 }
 .hero .user-info {
     display: grid;
     grid-template-columns: 3fr 1fr;
+    margin: 8px;
 }
 .hero .user-info .profile {
     display: flex;
 }
+
+#username {
+    margin-left: auto;
+}
 #button-list {
     display: flex;
+    justify-content: center;
     margin: 8px;
     gap: 8px;
+}
+
+.content {
+    width: 100%;
 }
