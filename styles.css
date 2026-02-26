@@ -37,7 +37,8 @@ a {
 
 .sidebar {
     background-color: var(--primary-bg-colour);
-     color: var(--text-colour);
+    color: var(--text-colour);
+    padding: 0.5em;
 }
 
 .header {
@@ -45,7 +46,6 @@ a {
 }
 .hero {
     display: grid;
-    
     background-color: var(--primary-bg-colour);
     color: var(--text-colour);
     
