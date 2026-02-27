@@ -97,7 +97,9 @@ a {
     margin: 8px;
     gap: 8px;
 }
-
+.profile div {
+    padding: 0.5em;
+}
 .content {
     width: 100%;
 }
