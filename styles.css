@@ -31,6 +31,11 @@ a {
     text-decoration: none;
     color: var(--text-colour);
 }
+
+ul li:hover{
+     transition: all 0.2s ease-in-out;
+     transform: scale(1.1);
+}
 .container {
    display: flex;
 }
@@ -128,6 +133,10 @@ a {
 .profile div {
     padding: 0.5em;
 }
+
+.profile div a:hover {
+    text-decoration: underline;
+}
 .content {
     width: 100%;
 }
@@ -165,6 +174,10 @@ a {
 }
 #cards article a {
     color: white;
+
+}
+#cards article a:hover {
+    color: lightgray;
 }
 #cards article > img {
     border-radius: 0.5em;
